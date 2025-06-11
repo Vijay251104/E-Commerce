@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Listing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <h1>E0322037</h1>
+
+  <div id="productGrid">
+    <div class="product-card">
+      <img src="https://imgs.search.brave.com/E_3dKEjF4t6x-sJ4baSo0Q1RjGy-k2q0hCZumXm8SoY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YmxhY2stYW5kLXdo/aXRlLWJsYWNrLWhl/YWRwaG9uZXMuanBn/P3dpZHRoPTEwMDAm/Zm9ybWF0PXBqcGcm/ZXhpZj0wJmlwdGM9/MA" alt="Item-1">
+      <h3>Item-1</h3>
+      <p>1000</p>
+      <button onclick="addToCart('Item-1', 1000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://imgs.search.brave.com/E_3dKEjF4t6x-sJ4baSo0Q1RjGy-k2q0hCZumXm8SoY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YmxhY2stYW5kLXdo/aXRlLWJsYWNrLWhl/YWRwaG9uZXMuanBn/P3dpZHRoPTEwMDAm/Zm9ybWF0PXBqcGcm/ZXhpZj0wJmlwdGM9/MA" alt="Item-2">
+      <h3>Item-2</h3>
+      <p>1000</p>
+      <button onclick="addToCart('Item-2', 1000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://imgs.search.brave.com/E_3dKEjF4t6x-sJ4baSo0Q1RjGy-k2q0hCZumXm8SoY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YmxhY2stYW5kLXdo/aXRlLWJsYWNrLWhl/YWRwaG9uZXMuanBn/P3dpZHRoPTEwMDAm/Zm9ybWF0PXBqcGcm/ZXhpZj0wJmlwdGM9/MA" alt="Item-3">
+      <h3>Item-3</h3>
+      <p>1000</p>
+      <button onclick="addToCart('Item-3', 1000)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://imgs.search.brave.com/E_3dKEjF4t6x-sJ4baSo0Q1RjGy-k2q0hCZumXm8SoY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YmxhY2stYW5kLXdo/aXRlLWJsYWNrLWhl/YWRwaG9uZXMuanBn/P3dpZHRoPTEwMDAm/Zm9ybWF0PXBqcGcm/ZXhpZj0wJmlwdGM9/MA" alt="Item-3">
+      <h3>Item-4</h3>
+      <p>1000</p>
+      <button onclick="addToCart('Item-4', 1000)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://imgs.search.brave.com/E_3dKEjF4t6x-sJ4baSo0Q1RjGy-k2q0hCZumXm8SoY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YmxhY2stYW5kLXdo/aXRlLWJsYWNrLWhl/YWRwaG9uZXMuanBn/P3dpZHRoPTEwMDAm/Zm9ybWF0PXBqcGcm/ZXhpZj0wJmlwdGM9/MA" alt="Item-3">
+      <h3>Item-5</h3>
+      <p>1000</p>
+      <button onclick="addToCart('Item-5', 1000)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://imgs.search.brave.com/E_3dKEjF4t6x-sJ4baSo0Q1RjGy-k2q0hCZumXm8SoY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YmxhY2stYW5kLXdo/aXRlLWJsYWNrLWhl/YWRwaG9uZXMuanBn/P3dpZHRoPTEwMDAm/Zm9ybWF0PXBqcGcm/ZXhpZj0wJmlwdGM9/MA" alt="Item-3">
+      <h3>Item-6</h3>
+      <p>1000</p>
+      <button onclick="addToCart('Item-6', 1000)">Add to Cart</button>
+    </div>
+
+  </div>
+
+  <div id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cartItems"></ul>
+    <p>Total: <span id="totalPrice">0.00</span></p>
+    <button id="buyNowBtn" onclick="buyNow()">Buy Now</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
